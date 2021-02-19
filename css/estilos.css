@@ -1,0 +1,261 @@
+
+
+body
+{
+    display: flex;
+
+    flex-direction: column;
+
+
+    width: 90%;
+
+    max-width: 900px;
+
+    min-width: 600px;
+
+
+    margin: auto;
+
+    align-content: center;
+    align-items: center;
+
+    justify-content: center;
+    justify-items: center;
+
+    /* border: dotted 1px black; */
+}
+
+
+body header
+{
+    color: rgb(65, 219, 224);
+
+    background-color: rgb(240, 255, 236);
+
+    border: solid 2px rgb(80, 199, 203);
+
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-radius: 50px;    
+
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    text-align: center;
+
+    box-shadow: 8px 12px rgb(152, 164, 164);
+
+    text-shadow: 1px 2px rgb(166, 209, 177);;
+}
+
+/*---------------------------------------------*/
+
+#cD_divCompras
+{
+    
+    display: flex;
+
+    flex-direction: column;
+
+
+    /* border: dotted 1px black; */
+
+    border-radius: 10px;
+
+
+    width: 90%;
+    /* max-width: 1000px; */
+    margin: auto;
+
+    margin-top: -30px;
+    margin-bottom: 30px;
+
+
+
+    align-content: center;
+    align-items: center;
+
+    justify-content: center;
+
+    justify-items: center;
+
+}
+
+.cD_divProductos
+{
+    /* display: flex; */
+
+    display:flex;
+
+    /* flex-direction: row; */
+
+    flex-wrap: wrap;
+    /* justify-content: flex-start;*/
+
+
+    border-radius: 10px;
+
+    background-color: rgb(240, 255, 236);;
+
+    width: 90%;
+
+    margin: auto;
+
+    padding: 15px;
+    
+    align-content: center;
+    align-items: center;
+
+    justify-content: center;
+
+    justify-items: center;
+
+
+    margin-bottom: 30px;
+
+    border: solid 1px rgb(80, 199, 203);
+
+}
+
+/*---------------------------------------------*/
+
+.iD_card
+{
+
+    display: flex;
+
+    width: 200px;
+
+
+    margin: 5px;
+    text-align: center;
+    border: 1px solid rgb(80, 199, 203);
+    /* border-radius: 1%; */
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 20px;
+}
+
+.iD_card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.iD_card img
+{
+    width: 100%;
+
+    height: 200px;
+
+    border-radius: 20px;    
+}
+
+.iD_card p
+{
+    font-weight: bold;
+}
+
+/*---------------------------------------*/
+
+.iD_button
+{
+    width: 90%;
+    background-color: rgb(87, 181, 243);
+    color: white;
+    padding: 0.2em;
+    margin: 0.1em;
+    cursor: pointer;  
+}
+
+.iD_button:hover
+{
+    opacity: 0.7;
+}
+
+
+/* ---------------Carrito------------ */
+
+
+#iD_carrito_General
+{
+    margin: auto;
+
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+
+#iD_carrito
+{
+    display: flex;
+    justify-content: /*flex-end*/ center;
+
+    margin: auto;
+
+    margin-top: -3rem;
+
+    border-radius: 10px;
+
+    box-shadow: 10px 10px grey;
+
+    width: 550px;
+    /* border: dotted 1px purple; */
+}
+
+
+#iD_carrito caption
+{
+    border-radius: 10px;
+}
+
+
+#hr_separador_zonas
+{
+    color: rgb(221, 84, 125);
+}
+
+
+table
+{
+    width: 550px;
+    /* border-bottom: 1px solid purple; */
+}
+
+table caption
+{
+    background-color: rgb(80, 199, 203);
+    color: white;
+    padding: 0.2em;
+    margin: 0.1em;  
+}
+
+table tr
+{
+    border-bottom: 1px solid rgb(80, 199, 203);
+}
+
+table td, table th
+{
+    padding: 0.3em;
+    border-bottom: 1px solid rgb(80, 199, 203);
+}
+
+.num
+{
+    text-align: right;
+}
+
+.centrado
+{
+    text-align: center;
+}
